@@ -1,0 +1,62 @@
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@font-face {
+  font-family: "myFont";
+  src: url(Rene_Bieder_Milliard_Book.woff);
+}
+.companies img {
+  height: auto;
+  width: 50%;
+}
+.title {
+  display: flex;
+  align-items: center;
+  font-family: "myFont";
+  font-size: 20px;
+}
+p {
+  padding-right: 10px;
+  border-right: 2px solid grey;
+}
+.title .diversity {
+  padding-left: 10px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  font-family: "MyFont";
+  font-size: 35px;
+  padding: 10px;
+}
+.diversity_pic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.diversity_pic2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.words {
+  font-family: "MyFont";
+  font-size: 25px;
+  padding: 40px;
+}
+.companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glide__slide {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "MyFont";
+  
+}
+.companies .glide {
+  display: flex;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Corporate Activism</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="glide.core.min.css">
+    <link rel="stylesheet" href="glide.theme.scss">
+    <link rel="stylesheet" href="glide.theme.css">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.schemecolor.com/wallpaper?i=455&desktop"/>
+  </head>
+  <body>
+
+    <div class="title"> <!-- https://stackoverflow.com/questions/38268573/how-to-print-each-letter-in-different-color-in-css-html/38268759 -->
+      <p>
+  <span style='color: blue'>S</span>
+  <span style='color: red'>e</span>
+  <span style='color: #f5bd45'>q</span>
+  <span style='color: blue'>u</span>
+  <span style='color: green'>o</span>
+  <span style='color: red'>i</span>
+  <span style='color: blue'>a</span>
+</p>
+  <div class="diversity">
+    Diversity and Inclusion
+  </div>
+    </div>
+    <hr>
+    <div class="intro" data-aos="zoom-in">
+      We believe it is our responsibility to get involved with the latest social issues.
+    </div>
+    <div class="diversity_pic">
+      <img src="https://cdn-res.keymedia.com/cms/images/us/036/0248_637357595628727380.jpg" alt="">
+    </div>
+    <div class="words" data-aos="fade-up">
+      Creating a work environment that welcomes people of diverse backgrounds is one of our top goals.
+      However, it's important to go beyond that and bring about real change in our society. We strive to commmit our
+      resources towards advocacy and reform.
+    </div>
+    <div class="diversity_pic2">
+      <img src="pic4.png" alt="">
+    </div>
+    <div class="words" data-aos="fade-up">
+      We take our public image very seriously. Here are some other companies who have inspired us
+      to dedicate our resources towards great causes.
+    </div>
+    <div class="companies" data-aos="zoom-in">
+      <div class="glide"> <!-- https://glidejs.com/e -->
+  <div class="glide__track" data-glide-el="track">
+    <ul class="glide__slides">
+      <img class="glide__slide" src="pic2.png" alt="">
+      <div class="glide__slide">
+        In August 2019, two back-to-back mass shootings resulted in the deaths of 30 people.
+        Walmart took the first step and banned open carry in their stores. They received national praise
+        for their dedication to making the country safer.
+      </div>
+      <img class="glide__slide" src="pic1.png" alt="">
+      <div class="glide__slide">
+        Unfortunately, a year later, Walmart reversed its decision and returned the guns and ammunitation back to
+        the sales floor.
+      </div>
+      <img class="glide__slide" src="pic5.png" alt="">
+      <div class="glide__slide">
+        Microsoft has contributed a large portion of their facial recognition software towards the Domain Awareness
+        System, which was originally created for the New York Police Department. In 2020, they decided to ban the use of their
+        software for policing, due to ethical concerns surrounding the technology's unjust treatment of people of color.
+        </div>
+      <img class="glide__slide" src="pic3.png" alt="">
+      <div class="glide__slide">
+        GitHub, owned by Microsoft, continues to renew its contract with ICE.
+        </div>
+      <img class="glide__slide" src="pic6.png" alt="">
+      <div class="glide__slide">
+        Amazon, like Microsoft, is one of the biggest suppliers of facial recgonition technology. In solidarity
+        with Microsoft, Amazon also decided to withdraw its facial recognition software.
+        </div>
+        <img class="glide__slide" src="pic7.png" alt="">
+        <div class="glide__slide">
+        However, its Ring doorbells are still linked with many local police departments.
+          </div>
+    </ul>
+  </div>
+  <div class="glide__arrows" data-glide-el="controls">
+    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+  </div>
+  <div class="glide__bullets" data-glide-el="controls[nav]"> <!-- added bullet points to make navigation easier -->
+    <button class="glide__bullet" data-glide-dir="=0"></button>
+    <button class="glide__bullet" data-glide-dir="=1"></button>
+    <button class="glide__bullet" data-glide-dir="=2"></button>
+    <button class="glide__bullet" data-glide-dir="=3"></button>
+    <button class="glide__bullet" data-glide-dir="=4"></button>
+    <button class="glide__bullet" data-glide-dir="=5"></button>
+    <button class="glide__bullet" data-glide-dir="=6"></button>
+    <button class="glide__bullet" data-glide-dir="=7"></button>
+    <button class="glide__bullet" data-glide-dir="=8"></button>
+    <button class="glide__bullet" data-glide-dir="=9"></button>
+    <button class="glide__bullet" data-glide-dir="=10"></button>
+
+  </div>
+</div>
+
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide" charset="utf-8"></script>
+    <script>
+    let config = {
+      perView: 2 //i wanted to have two slides scroll at a time (image and text slides) but was unsuccessful
+
+    };
+      new Glide('.glide', config).mount()
+      perView: 2
+
+
+    </script>
+
+
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
